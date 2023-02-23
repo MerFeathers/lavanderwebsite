@@ -1,0 +1,86 @@
+/*-----This is a comment
+Selector {
+	property: value;
+}-----*/
+
+nav{
+	background-color: rgba(105, 79, 145, 0.4);
+	height: 50px;
+	text-align: left;
+	font-size: 110%;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+body{
+	background-image: url(background.bmp);
+	background-size: cover;
+}
+
+h2, p {
+	color: rgba(64, 48, 117,1);
+	text-align: center;
+	cursor: pointer;
+}
+
+h2{
+	font-size: 170%;
+	border: 5px solid rgba(97, 81, 146, 0.4);
+}
+
+.webtext{
+	font-size: 120%;
+	font-family: "Times New Roman", sans-serif, Georgia;
+	text-align: justify;
+	line-height: 20px;
+	font-style: italic;
+}
+
+#div2 {
+	background: rgba(142, 121, 174, 0.2);
+}
+
+#div3, #div4 {
+	background: rgba(105, 79, 145, 0.4);
+}
+
+p{
+	border: none;
+	font-size: 120%;
+	font-family: "Times New Roman", sans-serif, Georgia;
+	text-align: justify;
+	line-height: 20px;
+	font-style: italic;
+}
+
+span{
+	font-size: 2em;
+}
+
+img{
+	float: left;
+}
+
+img + p {
+	border: 5px solid rgba(97, 81, 146, 0.4);
+	line-height: 48px;
+}
+
+footer {
+	color: rgba(64, 48, 117,1);
+	text-align: center;
+	clear: both;
+}
+
+.boxmodel{
+	border: 5px solid rgba(97, 81, 146, 0.4);
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	padding: 5px 20px;
+	margin:0px 10px;
+}
+
